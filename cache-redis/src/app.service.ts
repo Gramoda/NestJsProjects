@@ -8,7 +8,7 @@ export class AppService {
 
   async getHello() {
     await this.cacheManager.set('cached_item', { key: 32 },  36000 );
-    const cachedItem = await this.cacheManager.get('cached_item');
+    const cachedItem = await this.cacheManager.get('cached1_item');
     console.log(cachedItem);
     return 'Hello World!';
   }
