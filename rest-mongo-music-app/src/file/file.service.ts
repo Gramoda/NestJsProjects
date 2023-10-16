@@ -22,10 +22,6 @@ export class FileService{
         }
     }
 
-    removeFile(fileName: string) {
-
-    }
-
 }
 
 export { FileType };
